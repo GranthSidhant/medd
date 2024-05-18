@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocApp</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Link to your CSS file -->
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="websiteimages/websitelogo.jpg" alt="Website Logo" width="50" height="50">
+            <h1>DocApp</h1>
+        </div>
+        <nav>
+            <h3><a href="index.html" id="home">Home</a></h3>
+            <h3><a href="appointments.html" id="appointments">Appointment</a></h3>
+            <h3><a href="notification.html" id="notification">Notification</a></h3>
+            <!-- <h3><a href="profile.html" id="profile">Profile</a></h3> -->
+            <h3><a href="account.html" id="account">Account</a></h3>
+        </nav>
+    </header>
+    <hr class="bold">
+    <h1 class="profile">Profile</h1>
+    <hr>
+    <div class="maindiv">
+    <form>
+    
+        <label>Email</label>
+        <input class="inputs" type="email" name="email"><br>
+        <label>Password</label>
+        <input class="inputs" type="password" name="password"><br>
+        <label>Family name</label>
+        <input class="inputs" type="text" name="Familyname"><br>
+        <label>First name</label>
+        <input class="inputs" type="text" name="Firstname"><br>
+        <label>Date of Birth</label>
+        <input class="inputs" type="date" name="DateofBirth"><br>
+        <label>Gender</label>
+        <input class="inputs" type="text" name="Gender"><br>
+        <!--<input type="radio" name="Gender">Male
+        <input type="radio" name="Gender">Female-->
+        <label>Mobile Number</label>
+        <input class="inputs" type="number" name="phone"> <br>
+       <button id="button-savechange">Save change</button>
+  </form>
+</div>
+  <br>
+  <br>
+  <hr>
+    <h3 id="delete-profile">Delete profile</h3>
+    <script src="js/script.js"></script> <!-- Link to your JavaScript file -->
+
+
+</body>
+
+</html>
